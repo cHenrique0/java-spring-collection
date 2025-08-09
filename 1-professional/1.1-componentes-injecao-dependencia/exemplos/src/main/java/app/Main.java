@@ -1,6 +1,7 @@
 package app;
 
 import entities.Employee;
+import services.BrazilTaxService;
 import services.PensionService;
 import services.SalaryService;
 import services.TaxService;
@@ -22,7 +23,8 @@ public class Main {
          */
 
         Employee employee = new Employee("Maria", 4000.00);
-        TaxService taxService = new TaxService();
+//        TaxService taxService = new TaxService();
+        TaxService taxService = new BrazilTaxService();
         PensionService pensionService = new PensionService();
         SalaryService salaryService = new SalaryService(taxService, pensionService);
         double netSalary = salaryService.netSalary(employee);
