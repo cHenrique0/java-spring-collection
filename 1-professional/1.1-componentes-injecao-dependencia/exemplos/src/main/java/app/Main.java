@@ -1,7 +1,9 @@
 package app;
 
 import entities.Employee;
+import services.PensionService;
 import services.SalaryService;
+import services.TaxService;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +22,9 @@ public class Main {
          */
 
         Employee employee = new Employee("Maria", 4000.00);
-        SalaryService salaryService = new SalaryService();
+        TaxService taxService = new TaxService();
+        PensionService pensionService = new PensionService();
+        SalaryService salaryService = new SalaryService(taxService, pensionService);
         double netSalary = salaryService.netSalary(employee);
         System.out.printf("Nome: %s%n", employee.getName());
         System.out.printf("Salário bruto: %.2f%n", employee.getGrossSalary());
