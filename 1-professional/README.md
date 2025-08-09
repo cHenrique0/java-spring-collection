@@ -2,13 +2,13 @@
 
 ### 1.1 Componentes e injeção de dependência
 
-- [ ] Preparação de ambiente
-- [ ] Sistema e componentes
-- [ ] Inversão de controle e injeção de dependência
-- [ ] Trocando a dependência sem abrir o componente pai
-- [ ] Frameworks
-- [ ] Criação de projeto Spring Boot
-- [ ] Implementação de componentes no Spring Boot
+- [x] Preparação de ambiente
+- [x] Sistema e componentes
+- [x] Inversão de controle e injeção de dependência
+- [x] Trocando a dependência sem abrir o componente pai
+- [x] Frameworks
+- [x] Criação de projeto Spring Boot
+- [x] Implementação de componentes no Spring Boot
 - [ ] DESAFIO: Componentes e Injeção de Dependência
 
 ### 1.2 Modelo de Domínio e ORM
