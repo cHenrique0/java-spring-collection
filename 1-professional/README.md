@@ -9,7 +9,7 @@
 - [x] Frameworks
 - [x] Criação de projeto Spring Boot
 - [x] Implementação de componentes no Spring Boot
-- [ ] DESAFIO: Componentes e Injeção de Dependência
+- [x] DESAFIO: Componentes e Injeção de Dependência
 
 ### 1.2 Modelo de Domínio e ORM
 
