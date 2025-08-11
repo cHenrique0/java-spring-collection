@@ -38,5 +38,5 @@
 
 ## ✅ Status
 - [ ] Concluído
-- [ ] Em andamento
-- [x] Não iniciado
+- [x] Em andamento
+- [ ] Não iniciado
