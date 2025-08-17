@@ -32,6 +32,7 @@
 - Quando houver um relacionamento `muitos-para-muitos`, os atributos que correspondem à coleção do relacionamento devem ser instanciados como um `Set` para evitar a repitição de dados.
 - Um relacionamento `muitos-para-muitos` exige uma tabela de associação e, quando houver dados adicionais além das chaves estrangeiras é necessário implementar uma classe para essa tabela.
 - A classe de associação possui chave primária multipla, ou seja, as duas chaves estrangeiras das entidades do relacionamento são exatamente as chaves primárias das entidades. Nesse caso, é necessário implementar uma classe para esta chave primária composta.
+- Para fazer `seeding` do banco de dados (no ambiente de teste), é preciso criar um arquivo `import.sql` na pasta `resources` do projeto. Esse arquivo deve conter o script do banco de dados com os dados a serem inseridos.
 
 ### Comandos importantes
 - **@Entity**: mapea o objeto para o banco de dados.
@@ -48,7 +49,6 @@
     - O parametro `inverseJoinColumns` recebe o valor `@JoinColumn` com o id da entidade da outra ponta do relacionamento.
 - **@Embeddable**: Marca a classe como incorporável em outras entidades
 - **@EmbeddedId**: Utiliza a classe da chave primária como chave primária da entidade, aproveitando as configurações de chave composta.
-- **@**:
 
 ### Links úteis
 - [Revisão de Álgebra Relacional e SQL](https://www.youtube.com/watch?v=GHpE5xOxXXI)
@@ -58,6 +58,6 @@
 
 
 ## ✅ Status
-- [ ] Concluído
-- [x] Em andamento
+- [x] Concluído
+- [ ] Em andamento
 - [ ] Não iniciado

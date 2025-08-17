@@ -24,7 +24,7 @@
 - [x] Muitos-para-muitos, column unique e text
 - [x] Muitos-para-muitos com classe de associação PARTE 1
 - [x] Muitos-para-muitos com classe de associação PARTE 2
-- [ ] Seeding da base de dados
+- [x] Seeding da base de dados
 - [ ] DESAFIO: Modelo de domínio e ORM
 
 ### 1.3 API REST, camadas, CRUD, exceções, validações
