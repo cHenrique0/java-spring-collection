@@ -13,17 +13,17 @@
 
 ### 1.2 Modelo de Domínio e ORM
 
-- [ ] Revisão de Álgebra Relacional e SQL
-- [ ] Super revisão de OO e SQL com Java e JDBC
-- [ ] Nivelamento ORM - JPA e Hibernate
-- [ ] Documento de requisitos do sistema DSCommerce
-- [ ] Criando o projeto Spring Boot
-- [ ] Entidade User, banco H2
-- [ ] Order, Enum, relacionamento muitos-para-um
-- [ ] Payment, relacionamento um-para-um
-- [ ] Muitos-para-muitos, column unique e text
-- [ ] Muitos-para-muitos com classe de associação PARTE 1
-- [ ] Muitos-para-muitos com classe de associação PARTE 2
+- [x] Revisão de Álgebra Relacional e SQL
+- [x] Super revisão de OO e SQL com Java e JDBC
+- [x] Nivelamento ORM - JPA e Hibernate
+- [x] Documento de requisitos do sistema DSCommerce
+- [x] Criando o projeto Spring Boot
+- [x] Entidade User, banco H2
+- [x] Order, Enum, relacionamento muitos-para-um
+- [x] Payment, relacionamento um-para-um
+- [x] Muitos-para-muitos, column unique e text
+- [x] Muitos-para-muitos com classe de associação PARTE 1
+- [x] Muitos-para-muitos com classe de associação PARTE 2
 - [ ] Seeding da base de dados
 - [ ] DESAFIO: Modelo de domínio e ORM
 
