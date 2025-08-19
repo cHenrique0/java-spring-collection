@@ -29,11 +29,11 @@
 
 ### 1.3 API REST, camadas, CRUD, exceções, validações
 
-- [ ] O que é uma API REST
-- [ ] Recursos, URL, parâmetros de consulta e de rota
-- [ ] Padrões de URL, verbos HTTP, códigos de resposta
-- [ ] Padrão camadas
-- [ ] Acessando API
+- [x] O que é uma API REST
+- [x] Recursos, URL, parâmetros de consulta e de rota
+- [x] Padrões de URL, verbos HTTP, códigos de resposta
+- [x] Padrão camadas
+- [x] Acessando API
 - [ ] Repository
 - [ ] Criando DTO e estruturando camadas
 - [ ] Dica da biblioteca ModelMapper para DTO
