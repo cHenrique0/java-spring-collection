@@ -25,7 +25,7 @@
 - [x] Muitos-para-muitos com classe de associação PARTE 1
 - [x] Muitos-para-muitos com classe de associação PARTE 2
 - [x] Seeding da base de dados
-- [x] DESAFIO: Modelo de domínio e ORM
+- [x] DESAFIO: Modelo de Domínio e ORM
 
 ### 1.3 API REST, camadas, CRUD, exceções, validações
 
