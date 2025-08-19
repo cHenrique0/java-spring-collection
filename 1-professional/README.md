@@ -34,9 +34,9 @@
 - [x] Padrões de URL, verbos HTTP, códigos de resposta
 - [x] Padrão camadas
 - [x] Acessando API
-- [ ] Repository
-- [ ] Criando DTO e estruturando camadas
-- [ ] Dica da biblioteca ModelMapper para DTO
+- [x] Repository
+- [x] Criando DTO e estruturando camadas
+- [x] Dica da biblioteca ModelMapper para DTO
 - [ ] CRUD
 - [ ] Busca paginada
 - [ ] Inserção com POST
