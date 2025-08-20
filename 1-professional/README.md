@@ -37,9 +37,9 @@
 - [x] Repository
 - [x] Criando DTO e estruturando camadas
 - [x] Dica da biblioteca ModelMapper para DTO
-- [ ] CRUD
-- [ ] Busca paginada
-- [ ] Inserção com POST
+- [x] CRUD
+- [x] Busca paginada
+- [x] Inserção com POST
 - [ ] Customizando resposta com ResponseEntity
 - [ ] Atualização com PUT
 - [ ] Deleção com DELETE

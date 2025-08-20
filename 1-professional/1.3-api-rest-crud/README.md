@@ -19,11 +19,11 @@
 
 ## 🎯 Objetivos de Aprendizado
 - [ ] Projetar APIs REST seguindo boas práticas
-- [ ] Implementar padrão de camadas corretamente
-- [ ] Criar DTOs para transferência de dados
+- [x] Implementar padrão de camadas corretamente
+- [x] Criar DTOs para transferência de dados
 - [ ] Desenvolver CRUD completo com validações
 - [ ] Implementar tratamento de exceções profissional
-- [ ] Configurar paginação eficiente
+- [x] Configurar paginação eficiente
 
 ## 🔧 Projetos/Exercícios
 - **api-crud-exemplo/**: Implementação de CRUD básico
@@ -60,7 +60,8 @@ Interface do _Spring Data_ que fornece métodos **CRUD** para manipulação de e
     - readOnly = true: significa que a transação é somente leitura. Informa ao gerenciador de transações e ao banco de dados que a operação não irá realizar nenhuma alteração no estado dos dados. I
     - A anotação também garante que se ocorrerem exceções durante a operação, será feito um _rollback_ da transação, mantendo a consistência dos dados.
 - **@PathVariable**: usada para mapear o **path param** do endpoint para o argumento da função.
-- **@**: 
+- **@PostMapping**: especifica que o método anotado deve responder a requisições **POST**.
+- **@RequestBody**: utilizada para mapear o **body** da requisição para o argumento da função do endpoint.
 - **@**: 
 
 ### Links úteis
@@ -68,7 +69,6 @@ Interface do _Spring Data_ que fornece métodos **CRUD** para manipulação de e
 - [Metódos HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
 - [Status HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
 - [Model Mapper](https://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application)
-
 
 ## ✅ Status
 - [ ] Concluído

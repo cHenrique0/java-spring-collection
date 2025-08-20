@@ -1,6 +1,7 @@
 package professional.spring.course.dscommerce.entities;
 
 import jakarta.persistence.*;
+import professional.spring.course.dscommerce.dto.ProductDTO;
 
 import java.util.HashSet;
 import java.util.List;
@@ -34,6 +35,14 @@ public class Product {
         this.description = description;
         this.price = price;
         this.imgUrl = imgUrl;
+    }
+
+    public Product(ProductDTO productDTO) {
+        this.id = productDTO.getId();
+        this.name = productDTO.getName();
+        this.description = productDTO.getDescription();
+        this.price = productDTO.getPrice();
+        this.imgUrl = productDTO.getImgUrl();
     }
 
     public Long getId() {
